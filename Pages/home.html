@@ -1,0 +1,66 @@
+<!-- Página Inicial - home.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iara Games - Página Inicial</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="user-profile">
+            <a href="perfil.html">
+                <img src="/assets/User Icon.png" alt="Usuário">
+                <div class="user-info">
+                    <span>Gxbels #0411</span>
+                    <small>São Paulo, Brasil</small>
+                </div>
+            </a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="home.html">Início</a></li>
+                <li><a href="#">Descobrir</a></li>
+                <li><a href="#">Favoritos</a></li>
+            </ul>
+            <ul class="bottom-menu">
+                <li><a href="#">Configurações</a></li>
+                <li><a href="home-page.html">Sair</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="content">
+        <header class="search-bar">
+            <input type="text" placeholder="Buscar jogos">
+            <button><i class="bi bi-filter"></i></button>
+        </header>
+
+        <section class="games-section">
+            <h2>Jogos em Destaque</h2>
+            <div class="game-card">
+                <img src="/assets/Toren.png" alt="Jogo 1">
+                <div class="game-info">
+                    <h3>Toren</h3>
+                    <p>Aventura</p>
+                </div>
+            </div>
+            <!-- Mais cards aqui -->
+        </section>
+
+        <section class="streamers-section">
+            <h2>Top Streamers</h2>
+            <div class="streamer-card">
+                <img src="/assets/rafael icon.png" alt="Streamer 1">
+                <span>Rafael Xavier</span>
+            </div>
+            <!-- Mais cards aqui -->
+        </section>
+    </main>
+</body>
+</html>
